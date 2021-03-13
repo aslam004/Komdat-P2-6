@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/dreamfactorysoftware/dreamfactory/master/readme/vertical-logo-fullcolor.png"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Pemakaian](#Pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
@@ -145,55 +145,59 @@ sudo apt install phpmyadmin
     #Setelah itu restart
     sudo service apache2 restart
     ```
-8. Kunjungi alamat IP Web Server kita untuk melakukan login menggunakan akun saat setup
+8. Kunjungi `localhost:8000` dan login masuk dreamfactory
 
     - Login dengan akun yang sudah dibuat
-    ![1](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Login%20Page.png)
-    - Siap digunakan
-    ![2](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Home%20Page.png)
+    ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/login.png)
 
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
-- Untuk melihat info dari sistem yang kita gunakan kita bisa membuka halaman *System Info* yang ada di tab *Config*
-    ![1](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Config%20System%20Info.png)
-- Untuk melakukan pengaturan pada *cache* guna meningkatkan performa, kita bisa membuka halaman *cache* yang ada di tab *Config*
-    ![2](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Config%20Cache.png)
-- **Dreamfactory** juga sudah menyediakan kemudahan untuk melakukan pengaturan **CORS** di halaman *CORS* yang ada di tab *Config*
-    ![3](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Config%20CORS.png)
-- Sedangkan untuk melakukan konfigurasi template dari email yang akan dikirim, kita bisa melakukannya di halaman *Email Templates* yang ada di tab *Config*
-    ![4](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Config%20Email%20Templates.png)
-- Sedangkan untuk membuat konfigurasi *environment* yang digunakan, kita bisa mengaksesnya di halaman *Global Lookup Keys*
-    ![5](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Config%20Global%20Keys.png)
+- Kita dapat melihat informasi sistem melalui tab config
+    ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/sysinfo.png)
+- Pengaturan untuk cache 
+    ![2](https://github.com/aslam004/Komdat-P2-6/blob/2a0bbf3d21e9430a0446640f5c0d82114ae93d75/Screenshot/cache.png)
+- kita juga dapat mengatur *CORS* dalam config
+    ![3](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/cors.png)
+- Untuk mengatur template email, dapat melalui `email templates`.
+    ![4](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/emailtemplate.png)
+- Pengaturan untuk *environment* yang digunakan dapat di atur dalam *Global Lookup Key*
+    ![5](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/glk.png)
 
-# Cara Pemakaian
+# Pemakaian
 [`^ kembali ke atas ^`](#)
-- Untuk melakukan management menggunakan **Dreamfactory** cukup mudah, berikuat merupakan beberapa contoh:
-    - Membuat dokumentasi untuk aplikasi yang kita miliki
-        ![1](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Create%20App.png)
-    - Membuat admin baru untuk melakukan manajemen
-        ![2](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Create%20Admin.png)
-    - Membuat service baru yang ada di dalam aplikasi
-        ![3](https://raw.githubusercontent.com/ditdittdittt/dreamfactory/master/Screenshot/Create%20Service.png)
+Untuk pemakaian, berikut beberapa contoh pemakaian didalam DreamFactory:
+    - Melihat API Docs yang ada
+        ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/APIDocs.png)
+    - Membuat admin baru
+        ![2](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/create%20admin.png)
+    - Manage apps
+        ![3](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/manage%20apps.png)
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
-**Dreamfactory** adalah sebuah aplikasi berbasis website yang menyediakan layanan API Management yang ditulis dalam bahasa pemrograman PHP. Beberapa hal yang bisa dilakukan untuk melakukan manajemen dengan **Dreamfactory** diantaranya:
-- Mempermudah apps management apabila kita memiliki sebuah aplikasi yang banyak
-- Mempermudah service management disaat sebuah aplikasi menggunakan berbagai macam layanan service
-- Membuat role management kepada setiap user, sehingga setiap user memiliki hak akses yang sesuai dengan role-nya
-- Membuat dokumentasi *Api* dengan sangat mudah, bahkan kita bisa membuat *schema* dari database
-- Memiliki file manager tersendiri
+**Dreamfactory** merupakan API manajemen yang berbasis PHP. Berikut beberapa kelebihan dan kekurangan **Dreamfactory**
+**Kelebihan**
+- Memudahkan dalam manajemen servis aplikasi.
+- Adanya dokumentasi *API*.
+- Tiap User memiliki role sehingga dapat diatur hak aksesnya.
+- Adanya file manajer membuat lebih mudah.
 
-Kekurangan dari aplikasi ini antara lain:
-- Ketika memiliki resource yang banyak, aplikasi akan berjalan dengan lambat
-- Sebagian *powerful feature* yang disediakan harus diakses dengan berbayar
+**Kekurangan**
+- Banyak fitur yang hanya dapat diakses ketika berlangganan.
+- Sulit digunakan.
 
-Namun, jika dibandingkan dengan aplikasi *API Management* lainnya seperti **Endpoint** atau **Fusio**, aplikasi ini memiliki beberapa kelebihan dan kekurangan seperti:
-- **Dreamfactory** lebih *less-coding* dibanding **Endpoint** maupun **Fusio**
-- Aplikasi **Dreamfactory** memiliki fitur yang jauh lebih lengkap
-- Aplikasi **Endpoint** dan **Fusio** lebih ringan dibanding **Dreamfactory** karena memiliki modul yang lebih sedikit
+Aplikasi ini memiliki kelebihan dan kekurangan jika dibandingkan dengan aplikasi *API Management* lainnya seperti **KONG**:
+- **Dreamfactory** ada free versionnya , tidak seperti **KONG** yang tidak menyediakan free version.
+- **KONG** secara fitur lebih solid dibanging dengan **Dreamfactory**.
+- Namun **KONG** jarang adanya update jika dibandingkan dengan harganya.
 
 
 
 # Referensi
 [`^ kembali ke atas ^`](#)
+
+    - [konghq](https://konghq.com/)
+    - [Dreamfactory](https://www.dreamfactory.com/)
+    - [capterra](https://www.capterra.com/api-management-software/compare/79098-156756-171497/DreamTeam-vs-Funnel-vs-Kong-Enterprise)
+    - [LAMP Installation](https://www.linuxid.net/24341/cara-install-lamp-linux-apache-mysql-php-stack-di-ubuntu/)
+    - [DockerCompose](https://www.google.com/search?q=cara+install+docker+compose&rlz=1C1CHBD_enID921ID921&oq=cara+&aqs=chrome.2.69i59l3j69i57j69i59j69i60l2j69i61.2692j0j4&sourceid=chrome&ie=UTF-8)
