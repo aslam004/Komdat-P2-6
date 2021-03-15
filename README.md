@@ -41,7 +41,7 @@ sudo apt install apache2
 sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo apt install php libapache2-mod-php php-mysql
-sudo apt-get install php php-common php-xml php-cli php-curl php-json php-mysqlnd php7.2-sqlite php-soap php-mbstring php-zip php-bcmath
+sudo apt-get install php php-common php-xml php-cli php-curl php-json php-mysqlnd php7.4-sqlite php-soap php-mbstring php-zip php-bcmath
 sudo apt install phpmyadmin
 ```
 
@@ -68,7 +68,7 @@ sudo apt install phpmyadmin
     ```bash
 
     #Buka php.ini 
-    sudo nano ~/etc/php/7.2/apache2/php.ini
+    sudo nano ~/etc/php/7.4/apache2/php.ini
     
     ```
 
@@ -81,7 +81,7 @@ sudo apt install phpmyadmin
     sudo pecl install mongodb
     
     #Membuat file .ini lalu nyalakan MongoDB
-    sudo sh -c 'echo "extension=mongodb.so" > /etc/php/7.2/mods-available/mongodb.ini'
+    sudo sh -c 'echo "extension=mongodb.so" > /etc/php/7.4/mods-available/mongodb.ini'
     sudo phpenmod mongod
     ```
 
