@@ -5,7 +5,7 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-**Dreamfactory** adalah sebuah aplikasi berbasis website yang menyediakan layanan API Management secara gratis dan *Open Source*. **Dreamfactory** DreamFactory Services Platform menyediakan akses ke set resource back-end yang kaya melalui REST interface yang mendukung dokumen JSON dan XML.
+DreamFactory merupakan website apps untuk management API yang tersedia secara *Open Source*.  DreamFactory menyediakan akses ke set resource back-end yang kaya melalui REST interface yang mendukung dokumen JSON dan XML.
 
 # Instalasi
 [`^ kembali ke atas ^`](#)
