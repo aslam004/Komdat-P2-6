@@ -1,14 +1,10 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/dreamfactorysoftware/dreamfactory/master/readme/vertical-logo-fullcolor.png"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Pemakaian](#Pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-
 # Sekilas Tentang
-[`^ kembali ke atas ^`](#)
 
 DreamFactory merupakan website apps untuk management API yang tersedia secara *Open Source*.  DreamFactory menyediakan akses ke set resource back-end yang kaya melalui REST interface yang mendukung dokumen JSON dan XML.
 
 # Instalasi
-[`^ kembali ke atas ^`](#)
 
 ### Kebutuhan Sistem :
 - Unix, Linux atau Windows.
@@ -151,7 +147,6 @@ sudo apt install phpmyadmin
     ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/login.png)
 
 # Konfigurasi
-[`^ kembali ke atas ^`](#)
 - Kita dapat melihat informasi sistem melalui tab config
     ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/sysinfo.png)
 - Pengaturan untuk cache 
@@ -164,7 +159,6 @@ sudo apt install phpmyadmin
     ![5](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/glk.png)
 
 # Pemakaian
-[`^ kembali ke atas ^`](#)
 Untuk pemakaian, berikut beberapa contoh pemakaian didalam DreamFactory:
     - Melihat API Docs yang ada
         ![1](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/APIDocs.png)
@@ -174,7 +168,6 @@ Untuk pemakaian, berikut beberapa contoh pemakaian didalam DreamFactory:
         ![3](https://github.com/aslam004/Komdat-P2-6/blob/main/Screenshot/manage%20apps.png)
 
 # Pembahasan
-[`^ kembali ke atas ^`](#)
 **Dreamfactory** merupakan API manajemen yang berbasis PHP. Berikut beberapa kelebihan dan kekurangan **Dreamfactory**
 **Kelebihan**
 - Memudahkan dalam manajemen servis aplikasi.
@@ -184,7 +177,6 @@ Untuk pemakaian, berikut beberapa contoh pemakaian didalam DreamFactory:
 
 **Kekurangan**
 - Banyak fitur yang hanya dapat diakses ketika berlangganan.
-- Sulit digunakan.
 
 Aplikasi ini memiliki kelebihan dan kekurangan jika dibandingkan dengan aplikasi *API Management* lainnya seperti **KONG**:
 - **Dreamfactory** ada free versionnya , tidak seperti **KONG** yang tidak menyediakan free version.
