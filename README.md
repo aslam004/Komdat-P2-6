@@ -22,7 +22,7 @@ DreamFactory merupakan website apps untuk management API yang tersedia secara *O
 
 
 ### Proses Instalasi :
-1. Login kedalam server menggunakan SSH. disini saya menggunakan `node.j`, setelah itu install semua kebutuhan.
+1. Login kedalam server menggunakan SSH. disini saya menggunakan `node.js`, setelah itu install semua kebutuhan.
 ```bash
 
 #LogIn
