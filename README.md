@@ -64,7 +64,7 @@ sudo apt install phpmyadmin
 
 
 4. Konfigurasi file `php`
-    - Buka php.ini dengan text editor, lalu ganti `;cgi.fix_pathinfo=1` menjadi `;cgi.fix_pathinfo=0`, setelah itu save dan exit.
+    Buka php.ini dengan text editor, lalu ganti `;cgi.fix_pathinfo=1` menjadi `;cgi.fix_pathinfo=0`, setelah itu save dan exit.
     ```bash
 
     #Buka php.ini 
